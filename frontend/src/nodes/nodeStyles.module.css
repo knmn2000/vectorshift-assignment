@@ -1,0 +1,69 @@
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.nodeTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nodeHeader {
+  display: flex;
+  margin-bottom: 0.8em;
+  border-bottom: 1px solid rgb(188, 125, 255);
+  align-items: center;
+  justify-content: space-between;
+  > div > button {
+    background-color: transparent;
+    border-radius: 16px;
+    padding-left: 46px;
+    cursor: pointer;
+    border: 0px;
+    &:hover {
+      color: rgb(188, 125, 255);
+    }
+  }
+}
+
+.emoji {
+  font-size: 1.5rem;
+  margin-right: 4px;
+}
+
+.baseNode {
+  background-color: white;
+  border-radius: 0.4em;
+  padding: 1em;
+  width: "fit-content";
+  min-width: 240px;
+}
+
+.dynamicHandleLabel {
+  position: absolute;
+  transform: translate(-104%, -40%);
+  background: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.handleLabel {
+  font-weight: 600;
+  position: absolute;
+  transform: translate(-104%, -50%);
+  background: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.childrenContainer {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

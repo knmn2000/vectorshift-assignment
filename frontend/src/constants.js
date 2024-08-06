@@ -1,0 +1,9 @@
+export const INPUT_NODE = "INPUT";
+export const LLM_NODE = "LLM";
+export const OUTPUT_NODE = "OUTPUT";
+export const TEXT_NODE = "TEXT";
+export const DELAY_NODE = "DELAY";
+export const AB_TEST_NODE = "AB_TEST";
+export const EMAIL_NODE = "EMAIL";
+export const CONDITIONAL_NODE = "CONDITION";
+export const DOWNLOAD_NODE = "DOWNLOAD";
